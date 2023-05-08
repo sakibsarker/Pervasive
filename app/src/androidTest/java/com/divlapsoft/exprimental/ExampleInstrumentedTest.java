@@ -1,4 +1,4 @@
-package com.divlap.myapplication;
+package com.divlapsoft.exprimental;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.divlap.myapplication", appContext.getPackageName());
+        assertEquals("com.divlapsoft.exprimental", appContext.getPackageName());
     }
 }

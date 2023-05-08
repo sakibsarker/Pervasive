@@ -1,4 +1,4 @@
-package com.divlap.myapplication;
+package com.divlapsoft.exprimental;
 
 import org.junit.Test;
 
