@@ -6,35 +6,41 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-
-    <EditText
-        android:id="@+id/et_firstName"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="First Name" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
-    <EditText
-        android:id="@+id/et_lastName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Last Name" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Your name" />
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Age"/>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/outword"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_showData"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Show Data" />
 
-    <TextView
-        android:id="@+id/tv_data"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:text="ABC" />
+
 </LinearLayout>

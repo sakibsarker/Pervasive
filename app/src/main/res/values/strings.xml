@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">exprimental</string>
+    <string name="todo">TODO</string>
+    <string name="submit">submit</string>
+    <string name="submit1">Submit</string>
+    <string name="submit3">Submit</string>
+    <string name="submit4">Submit</string>
+    <string name="submit5">submit</string>
+    <string name="submit6">Submit</string>
+    <string name="submit7">submit</string>
 </resources>
