@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             str_lastName=et_lastName.getText().toString().trim();
             String name=str_firstName+" "+str_lastName;
             tv_data.setText(name);
+            
         }
 
     }
